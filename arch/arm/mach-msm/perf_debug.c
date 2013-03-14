@@ -28,6 +28,7 @@ static char *descriptions =
 	"3  Perf: Correct irq for CPU hotplug detection\n"
 	"4  Perf: Check perf activity on correct CPU\n"
 	"5  Perf: Add cortex A5 device tree support\n"
+	"6  Perf: Add L1 counters to tracepoints\n"
 ;
 
 static ssize_t desc_read(struct file *fp, char __user *buf,
